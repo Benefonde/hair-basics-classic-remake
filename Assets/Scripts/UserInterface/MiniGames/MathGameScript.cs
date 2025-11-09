@@ -115,7 +115,7 @@ public class MathGameScript : MonoBehaviour
             clipLoudness += Mathf.Abs(sample) * baldiAudio.audioDevice.volume;
         }
 
-        int spriteIndex = Mathf.RoundToInt(Mathf.Clamp(clipLoudness * 2f, 0f, 6f));
+        int spriteIndex = Mathf.RoundToInt(Mathf.Clamp(clipLoudness * 1.28f, 0f, talkSprites.Length - 1));
         baldiFeed.sprite = talkSprites[spriteIndex];
     }
     #endregion

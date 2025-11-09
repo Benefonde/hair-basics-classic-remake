@@ -6,9 +6,9 @@ public class WarningScreenScript : MonoBehaviour
 {
     private void Start()
     {
-        if (sprites.Length > 0 && displayImage != null)
+        if (warnings.Length > 0)
         {
-            displayImage.sprite = sprites[0];
+            warnings[0].SetActive(true);
         }
     }
 
@@ -22,10 +22,11 @@ public class WarningScreenScript : MonoBehaviour
 
     private void Advance()
     {
+        warnings[current].SetActive(false);
         current++;
-        if (current < sprites.Length)
+        if (current < warnings.Length)
         {
-            displayImage.sprite = sprites[current];
+            warnings[current].SetActive(true);
         }
         else
         {
@@ -37,8 +38,7 @@ public class WarningScreenScript : MonoBehaviour
     [SerializeField] private string BootUp;
 
     [Header("UI References")]
-    [SerializeField] private Image displayImage;
-    [SerializeField] private Sprite[] sprites;
+    [SerializeField] private GameObject[] warnings;
 
     private int current = 0;
 }

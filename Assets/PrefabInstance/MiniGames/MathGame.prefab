@@ -496,13 +496,13 @@ MonoBehaviour:
   BlackCoverUp: {fileID: 6253863681064143752}
   minusButton: {fileID: 3316195245281050824}
   hintText:
-  - I GET ANGRIER FOR EVERY PROBLEM YOU GET WRONG
-  - I HEAR EVERY DOOR YOU OPEN
+  - I HEAR EVERY BALL YOU DUPLICATE
+  - I GET ANGRIER EACH JOKE YOU LAUGH AT
   endlessHintText:
   - That's more like it...
   - Keep up the good work or see me after class...
-  resultText: WOW! YOU EXIST!
-  failedText: I HEAR MATH THAT BAD
+  resultText: WOW! YOU BREATHE AIR!
+  failedText: Stupid idiot stupid
   baldiAudio: {fileID: 3990819282485572282}
   bal_intro: {fileID: 8300000, guid: 97197e75b0d13b740a582f1c2d4858d9, type: 3}
   bal_howto: {fileID: 8300000, guid: f4b92ba06ae550e48a0ce9b0d7befbca, type: 3}
@@ -539,13 +539,10 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 3689025ee59e0be48a16aa06cd8b3ba7, type: 3}
   - {fileID: 8300000, guid: 28a93fcbe5dd26a4cb3d8aa29c620c1f, type: 3}
   talkSprites:
-  - {fileID: 3857111977307764134, guid: dd94a49209fbf3b45a1ece75fa2f6015, type: 3}
-  - {fileID: -5754312967276168980, guid: dd94a49209fbf3b45a1ece75fa2f6015, type: 3}
-  - {fileID: 4973104678366384746, guid: dd94a49209fbf3b45a1ece75fa2f6015, type: 3}
-  - {fileID: 3378006741919210662, guid: dd94a49209fbf3b45a1ece75fa2f6015, type: 3}
-  - {fileID: -9033506038992826624, guid: dd94a49209fbf3b45a1ece75fa2f6015, type: 3}
-  - {fileID: -2673037292303914027, guid: dd94a49209fbf3b45a1ece75fa2f6015, type: 3}
-  - {fileID: -5276019214022794717, guid: dd94a49209fbf3b45a1ece75fa2f6015, type: 3}
+  - {fileID: 1112982244065779786, guid: dd94a49209fbf3b45a1ece75fa2f6015, type: 3}
+  - {fileID: -3502788876706958128, guid: dd94a49209fbf3b45a1ece75fa2f6015, type: 3}
+  - {fileID: 4326904545912061415, guid: dd94a49209fbf3b45a1ece75fa2f6015, type: 3}
+  - {fileID: -3073204711693736573, guid: dd94a49209fbf3b45a1ece75fa2f6015, type: 3}
   angrySprites:
   - {fileID: -406032820659864940, guid: dd94a49209fbf3b45a1ece75fa2f6015, type: 3}
   - {fileID: -7707511312662585191, guid: dd94a49209fbf3b45a1ece75fa2f6015, type: 3}
@@ -556,16 +553,6 @@ MonoBehaviour:
   - {fileID: 7992590080881102885, guid: dd94a49209fbf3b45a1ece75fa2f6015, type: 3}
   - {fileID: -3539802206281477525, guid: dd94a49209fbf3b45a1ece75fa2f6015, type: 3}
   - {fileID: -7166826436168234021, guid: dd94a49209fbf3b45a1ece75fa2f6015, type: 3}
-  - {fileID: 1112982244065779786, guid: dd94a49209fbf3b45a1ece75fa2f6015, type: 3}
-  - {fileID: -3502788876706958128, guid: dd94a49209fbf3b45a1ece75fa2f6015, type: 3}
-  - {fileID: 4326904545912061415, guid: dd94a49209fbf3b45a1ece75fa2f6015, type: 3}
-  - {fileID: -3073204711693736573, guid: dd94a49209fbf3b45a1ece75fa2f6015, type: 3}
-  - {fileID: -5801267832664461302, guid: dd94a49209fbf3b45a1ece75fa2f6015, type: 3}
-  - {fileID: -5093170781182308440, guid: dd94a49209fbf3b45a1ece75fa2f6015, type: 3}
-  - {fileID: -7238777627620077036, guid: dd94a49209fbf3b45a1ece75fa2f6015, type: 3}
-  - {fileID: -7277324601278450587, guid: dd94a49209fbf3b45a1ece75fa2f6015, type: 3}
-  - {fileID: 4585927453852986025, guid: dd94a49209fbf3b45a1ece75fa2f6015, type: 3}
-  - {fileID: -5360060408930285263, guid: dd94a49209fbf3b45a1ece75fa2f6015, type: 3}
   correct: {fileID: 2247793541055268140, guid: 0ea353a601c7ade4cb27d80ac2694365, type: 3}
   incorrect: {fileID: -6783477298386761599, guid: 0ea353a601c7ade4cb27d80ac2694365,
     type: 3}
@@ -3103,7 +3090,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -128, y: -100}
+  m_AnchoredPosition: {x: -128, y: -108}
   m_SizeDelta: {x: 71, y: 71}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2425669725133392112
@@ -3134,7 +3121,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 3857111977307764134, guid: dd94a49209fbf3b45a1ece75fa2f6015,
+  m_Sprite: {fileID: -406032820659864940, guid: dd94a49209fbf3b45a1ece75fa2f6015,
     type: 3}
   m_Type: 0
   m_PreserveAspect: 0

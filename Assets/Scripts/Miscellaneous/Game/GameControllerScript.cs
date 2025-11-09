@@ -20,11 +20,6 @@ public class GameControllerScript : MonoBehaviour
 
     private void Update()
     {
-        if (!KF.gamePaused)
-        {
-            FinaleModeAnnoyance();
-        }
-
         GameOverFunction();
     }
     #endregion
@@ -66,7 +61,7 @@ public class GameControllerScript : MonoBehaviour
     #region NotebookManagement
     public void UpdateNotebookCount()
     {
-        notebookCount.text = mode == "story" ? $"{notebooks}/{maxNotebooks}" : $"{notebooks}";
+        notebookCount.text = mode == "story" ? $"{notebooks}/{maxNotebooks} Dwaynes" : $"{notebooks} Dwaynes";
 
         if (mode == "endless" && notebooks / maxNotebooks > lastRespawnCount)
         {
@@ -190,20 +185,6 @@ public class GameControllerScript : MonoBehaviour
         entrances.ForEach(exits => exits.Disable());
     }
 
-    private void FinaleModeAnnoyance()
-    {
-        if (!finaleMode || audioDevice.isPlaying) return;
-
-        if (exitsReached == 2)
-        {
-            PlayAudioClip(aud_ChaosStartLoop, true);
-        }
-        else if (exitsReached == 3 && !progress.GetSecret & !progress.GetResults)
-        {
-            PlayAudioClip(aud_ChaosFinal, true);
-        }
-    }
-
     private void PlayAudioClip(AudioClip clip, bool loop)
     {
         audioDevice.clip = clip;
@@ -267,22 +248,6 @@ public class GameControllerScript : MonoBehaviour
                         break;
                 }
             }
-            StartCoroutine(SchoolEscapeMusic());
-        }
-
-        if (exitsReached == 2)
-        {
-            audioDevice.PlayOneShot(aud_Switch, 0.8f);
-            audioDevice.clip = aud_ChaosStart;
-            audioDevice.Play();
-        }
-
-        if (exitsReached == 3)
-        {
-            StartCoroutine(audioQueue.FadeOut(escapeMusic, 1f));
-            audioDevice.PlayOneShot(aud_Switch, 0.8f);
-            audioDevice.clip = aud_ChaosBuildUp;
-            audioDevice.Play();
         }
     }
 

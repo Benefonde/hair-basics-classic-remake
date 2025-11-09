@@ -216,12 +216,12 @@ public class AdditionalGameCustomizer : MonoBehaviour
 
     private void ItemSlotAmout()
     {
-        if (slotsAmount == SlotsAmount._5)
+        if (slotsAmount == SlotsAmount._4)
         {
-            ItemManager.Instance.Inventory = _5_Slots_Inventory;
-            ItemManager.Instance.ChangeReferences(_5slotsItemImage, _5slotsBG);
+            ItemManager.Instance.Inventory = _4_Slots_Inventory;
+            ItemManager.Instance.ChangeReferences(_4slotsItemImage, _4slotsBG);
             _3_Slots.SetActive(false);
-            _5_Slots.SetActive(true);
+            _4_Slots.SetActive(true);
             RectTransform counterRect = Counter.GetComponent<RectTransform>();
             counterRect.anchoredPosition = new Vector2(15f, counterRect.anchoredPosition.y);
         }
@@ -243,12 +243,12 @@ public class AdditionalGameCustomizer : MonoBehaviour
     [Header("Serialized References")]
     public Sprite[] BookColors;
     public Material NormalSky, NormalRedSky, NightSky, RedNightSky, TwilightSky, RedTwilightSky, DefaultSky;
-    [SerializeField] private GameObject warning, Clock, TMP, OldStamina, PreOldStamina, NewStamina, VerticalStamina, CircleStamina, GaugeManager, Counter, quarter, _3_Slots, _5_Slots;
+    [SerializeField] private GameObject warning, Clock, TMP, OldStamina, PreOldStamina, NewStamina, VerticalStamina, CircleStamina, GaugeManager, Counter, quarter, _3_Slots, _4_Slots;
     [SerializeField] private TMP_Text currencyCounter, currencyCounterBG;
     [SerializeField] private AudioClip aud_Drop;
-    [SerializeField] private ItemManager.HeldItem[] _5_Slots_Inventory;
-    [SerializeField] private List<RawImage> _5slotsItemImage = new List<RawImage>();
-    [SerializeField] private List<Image> _5slotsBG = new List<Image>();
+    [SerializeField] private ItemManager.HeldItem[] _4_Slots_Inventory;
+    [SerializeField] private List<RawImage> _4slotsItemImage = new List<RawImage>();
+    [SerializeField] private List<Image> _4slotsBG = new List<Image>();
     #endregion
 
     #region RuntimeVariables
@@ -259,7 +259,7 @@ public class AdditionalGameCustomizer : MonoBehaviour
     #endregion
 
     #region Enums
-    public enum SlotsAmount { _3, _5 }
+    public enum SlotsAmount { _3, _4 }
     public enum SkyboxStyle { Default, Day, Sunset, Night }
     public enum StaminaDisplay { Old, PreOld, Normal, Vertical, Circle }
     #endregion

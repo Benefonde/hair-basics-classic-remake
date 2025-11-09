@@ -54,7 +54,7 @@ public class NotebookScript : MonoBehaviour
     #region Notebook Interaction Logic
     private void NotebookInteraction()
     {
-        if (Input.GetMouseButtonDown(0) && Time.timeScale != 0f && transform.IsWithinDistanceFrom(player, 10f))
+        if ((Input.GetMouseButtonDown(0) | Singleton<InputManager>.Instance.GetActionKey(InputAction.Interact)) && Time.timeScale != 0f && transform.IsWithinDistanceFrom(player, 10f))
         {
             if (Sych.ScreenCenterRaycast(out RaycastHit hit) && hit.transform.CompareTag("Notebook"))
             {
@@ -84,10 +84,6 @@ public class NotebookScript : MonoBehaviour
     #region No YCTP Mode Logic
     private void NoYCTPMode()
     {
-        gc.Icon.Rebind();
-        gc.Icon.Play("IconSpin", -1, 0f);
-        audioDevice.PlayClip(gc.aud_Collected, false, 1f);
-
         if (gc.player.stamina < 100f)
         {
             gc.player.SetStamina(PlayerScript.StaminaChangeMode.Set, 100f);

@@ -4,43 +4,43 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: -406032820659864940
-    second: BaldiDisplayFrown_0
+    second: BaldiDisplaySheet_0
   - first:
       213: -7707511312662585191
-    second: BaldiDisplayFrown_1
+    second: BaldiDisplaySheet_1
   - first:
       213: -2400867707977576950
-    second: BaldiDisplayFrown_2
+    second: BaldiDisplaySheet_2
   - first:
       213: 5392924429506980915
-    second: BaldiDisplayFrown_3
+    second: BaldiDisplaySheet_3
   - first:
       213: 8344367176683086635
-    second: BaldiDisplayFrown_4
+    second: BaldiDisplaySheet_4
   - first:
       213: 7119058801517876411
-    second: BaldiDisplayFrown_5
+    second: BaldiDisplaySheet_5
   - first:
       213: 7992590080881102885
-    second: BaldiDisplayFrown_6
+    second: BaldiDisplaySheet_6
   - first:
       213: -3539802206281477525
-    second: BaldiDisplayFrown_7
+    second: BaldiDisplaySheet_7
   - first:
       213: -7166826436168234021
-    second: BaldiDisplayFrown_8
+    second: BaldiDisplaySheet_8
   - first:
       213: 1112982244065779786
-    second: BaldiDisplayFrown_9
+    second: BaldiDisplaySheet_9
   - first:
       213: -3502788876706958128
-    second: BaldiDisplayFrown_10
+    second: BaldiDisplaySheet_10
   - first:
       213: 4326904545912061415
-    second: BaldiDisplayFrown_11
+    second: BaldiDisplaySheet_11
   - first:
       213: -3073204711693736573
-    second: BaldiDisplayFrown_12
+    second: BaldiDisplaySheet_12
   - first:
       213: -5801267832664461302
     second: BaldiDisplayFrown_13
@@ -98,12 +98,10 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
-    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -142,7 +140,6 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
-  swizzle: 50462976
   cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
@@ -155,7 +152,6 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -168,7 +164,6 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -181,22 +176,21 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: BaldiDisplayFrown_0
+      name: BaldiDisplaySheet_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 192
+        y: 64
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -209,15 +203,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BaldiDisplayFrown_1
+      name: BaldiDisplaySheet_1
       rect:
         serializedVersion: 2
         x: 64
-        y: 192
+        y: 64
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -230,15 +224,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BaldiDisplayFrown_2
+      name: BaldiDisplaySheet_2
       rect:
         serializedVersion: 2
         x: 128
-        y: 192
+        y: 64
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -251,15 +245,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BaldiDisplayFrown_3
+      name: BaldiDisplaySheet_3
       rect:
         serializedVersion: 2
         x: 192
-        y: 192
+        y: 64
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -272,15 +266,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BaldiDisplayFrown_4
+      name: BaldiDisplaySheet_4
       rect:
         serializedVersion: 2
         x: 256
-        y: 192
+        y: 64
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -293,15 +287,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BaldiDisplayFrown_5
+      name: BaldiDisplaySheet_5
       rect:
         serializedVersion: 2
         x: 320
-        y: 192
+        y: 64
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -314,15 +308,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BaldiDisplayFrown_6
+      name: BaldiDisplaySheet_6
       rect:
         serializedVersion: 2
         x: 384
-        y: 192
+        y: 64
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -335,15 +329,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BaldiDisplayFrown_7
+      name: BaldiDisplaySheet_7
       rect:
         serializedVersion: 2
         x: 448
-        y: 192
+        y: 64
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -356,15 +350,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BaldiDisplayFrown_8
+      name: BaldiDisplaySheet_8
       rect:
         serializedVersion: 2
         x: 0
-        y: 128
+        y: 0
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -377,15 +371,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BaldiDisplayFrown_9
+      name: BaldiDisplaySheet_9
       rect:
         serializedVersion: 2
         x: 64
-        y: 128
+        y: 0
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -398,15 +392,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BaldiDisplayFrown_10
+      name: BaldiDisplaySheet_10
       rect:
         serializedVersion: 2
         x: 128
-        y: 128
+        y: 0
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -419,15 +413,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BaldiDisplayFrown_11
+      name: BaldiDisplaySheet_11
       rect:
         serializedVersion: 2
         x: 192
-        y: 128
+        y: 0
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -440,15 +434,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BaldiDisplayFrown_12
+      name: BaldiDisplaySheet_12
       rect:
         serializedVersion: 2
         x: 256
-        y: 128
+        y: 0
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -456,279 +450,6 @@ TextureImporter:
       bones: []
       spriteID: 3852075e898c955d0800000000000000
       internalID: -3073204711693736573
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BaldiDisplayFrown_13
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 128
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a00722384a1cd7fa0800000000000000
-      internalID: -5801267832664461302
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BaldiDisplayFrown_14
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 128
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8afca37c82c6159b0800000000000000
-      internalID: -5093170781182308440
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BaldiDisplayFrown_15
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 128
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 41219a1b912ba8b90800000000000000
-      internalID: -7238777627620077036
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BaldiDisplayFrown_16
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 64
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 564369105dfb10b90800000000000000
-      internalID: -7277324601278450587
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BaldiDisplayFrown_17
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 64
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9aa6e94d8bc74af30800000000000000
-      internalID: 4585927453852986025
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BaldiDisplayFrown_18
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 64
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1394317f47d3d95b0800000000000000
-      internalID: -5360060408930285263
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BaldiDisplayTalk_0
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 64
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6a5755258e6378530800000000000000
-      internalID: 3857111977307764134
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BaldiDisplayTalk_1
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 64
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ce8741b08d29420b0800000000000000
-      internalID: -5754312967276168980
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BaldiDisplayTalk_2
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 64
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a629cd83b54040540800000000000000
-      internalID: 4973104678366384746
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BaldiDisplayTalk_3
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 64
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6ac18fcfb3711ee20800000000000000
-      internalID: 3378006741919210662
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BaldiDisplayTalk_4
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 64
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 00f8c7d7e1a82a280800000000000000
-      internalID: -9033506038992826624
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BaldiDisplayTalk_5
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5db6ad8beb677ead0800000000000000
-      internalID: -2673037292303914027
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BaldiDisplayTalk_6
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 32229087a70d7c6b0800000000000000
-      internalID: -5276019214022794717
       vertices: []
       indices: 
       edges: []
@@ -743,35 +464,9 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      BaldiDisplayFrown_0: -406032820659864940
-      BaldiDisplayFrown_1: -7707511312662585191
-      BaldiDisplayFrown_10: -3502788876706958128
-      BaldiDisplayFrown_11: 4326904545912061415
-      BaldiDisplayFrown_12: -3073204711693736573
-      BaldiDisplayFrown_13: -5801267832664461302
-      BaldiDisplayFrown_14: -5093170781182308440
-      BaldiDisplayFrown_15: -7238777627620077036
-      BaldiDisplayFrown_16: -7277324601278450587
-      BaldiDisplayFrown_17: 4585927453852986025
-      BaldiDisplayFrown_18: -5360060408930285263
-      BaldiDisplayFrown_2: -2400867707977576950
-      BaldiDisplayFrown_3: 5392924429506980915
-      BaldiDisplayFrown_4: 8344367176683086635
-      BaldiDisplayFrown_5: 7119058801517876411
-      BaldiDisplayFrown_6: 7992590080881102885
-      BaldiDisplayFrown_7: -3539802206281477525
-      BaldiDisplayFrown_8: -7166826436168234021
-      BaldiDisplayFrown_9: 1112982244065779786
-      BaldiDisplayTalk_0: 3857111977307764134
-      BaldiDisplayTalk_1: -5754312967276168980
-      BaldiDisplayTalk_2: 4973104678366384746
-      BaldiDisplayTalk_3: 3378006741919210662
-      BaldiDisplayTalk_4: -9033506038992826624
-      BaldiDisplayTalk_5: -2673037292303914027
-      BaldiDisplayTalk_6: -5276019214022794717
-  mipmapLimitGroupName: 
+  spritePackingTag: 
   pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

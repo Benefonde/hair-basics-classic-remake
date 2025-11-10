@@ -109,12 +109,6 @@ public class NotebookScript : MonoBehaviour
         if (gc.notebooks == gc.maxNotebooks && gc.mode == "story")
         {
             TriggerFinalSequence();
-
-            if (AdditionalGameCustomizer.Instance?.ExitCounter == true)
-            {
-                gc.Icon.Rebind();
-                gc.Icon.Play("Icon2Idle", -1, 0f);
-            }
         }
     }
 

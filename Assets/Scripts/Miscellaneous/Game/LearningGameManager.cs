@@ -35,15 +35,6 @@ public class LearningGameManager : MonoBehaviour
         learningActive = false;
         Destroy(subject);
         KF.LockMouse();
-        Emag.audioDevice.PlayOneShot(Emag.aud_Collected);
-        Emag.Icon.Rebind();
-        Emag.Icon.Play("IconSpin", -1, 0f);
-
-        if (AdditionalGameCustomizer.Instance != null && AdditionalGameCustomizer.Instance.ExitCounter && Emag.notebooks == Emag.maxNotebooks && Emag.mode == "story")
-        {
-            Emag.Icon.Rebind();
-            Emag.Icon.Play("Icon2Idle", -1, 0f);
-        }
 
         if (Emag.player.stamina < 100f)
         {

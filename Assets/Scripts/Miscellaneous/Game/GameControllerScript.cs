@@ -220,8 +220,6 @@ public class GameControllerScript : MonoBehaviour
         if (AdditionalGameCustomizer.Instance != null && AdditionalGameCustomizer.Instance.ExitCounter)
         {
             UpdateNotebookCount();
-            Icon.Rebind();
-            Icon.Play("Icon2Spin", -1, 0f);
         }
 
         if (exitEasingCoroutine != null)
@@ -343,7 +341,6 @@ public class GameControllerScript : MonoBehaviour
     public List<GameObject> ObjectsToEnable = new List<GameObject>();
     [SerializeField] private List<GameObject> ObjectsToDisable, ItemsToRespawn = new List<GameObject>();
     [SerializeField] private List<VendingMachineScript> MachinesToRestock = new List<VendingMachineScript>();
-    public Animator Icon;
     public Material SpriteRenderer;
     public Sprite Present;
     public GameObject learningGame;

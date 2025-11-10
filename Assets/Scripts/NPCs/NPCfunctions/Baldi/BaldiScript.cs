@@ -31,6 +31,8 @@ public class BaldiScript : NPC
 		{
 			baldiTempAnger = 0f;
 		}
+
+        if (pause > 0) pause -= Time.deltaTime;
     }
 
     public override void OnFixedUpdate()
@@ -79,7 +81,7 @@ public class BaldiScript : NPC
 			Wander();
 		}
 
-		if (!stopMoving)
+		if (!stopMoving && pause <= 0)
 		{
 			Invoke(nameof(Move), baldiWait);
 		}
@@ -160,6 +162,13 @@ public class BaldiScript : NPC
     }
     #endregion
 
+    #region Custom Stuff (for Hair)
+    public void IncreaseWaitTime(float value)
+    {
+         pause += value;
+    }
+    #endregion
+
     #region Serialized Field States
     [Header("Baldi's Stats")]
     [SerializeField] private float baldiAnger;
@@ -167,7 +176,7 @@ public class BaldiScript : NPC
 
     [Header("Movement and Behavior")]
     [SerializeField] private float speed;
-    [SerializeField] private float timeToMove;
+    [SerializeField] private float timeToMove, pause;
     public bool stopMoving, antiHearing;
 
     [Header("Anger Management")]

@@ -279,7 +279,7 @@ public class PlayerScript : MonoBehaviour
 	#region Triggers & Game Events
 	private void OnTriggerEnter(Collider other)
 	{
-		if (other.transform.name == "Baldi" & !gc.debugMode)
+		if (other.transform.name == "Baldi" & !gc.debugMode && !invincible)
 		{
 			gameOver = true;
 			RenderSettings.skybox = blackSky;
@@ -366,8 +366,26 @@ public class PlayerScript : MonoBehaviour
 	public async void ActivateBoots()
 	{
 		bootsActive = true;
-		await Task.Delay(60000);
+		await Task.Delay(20000);
 		bootsActive = false;
+	}
+
+	public async void SpeedUp(float walk, float run, float time = 0)
+    {
+		walkSpeed += walk;
+		runSpeed += run;
+		if (time > 0) await Task.Delay((int)(time * 1000));
+		else return;
+		walkSpeed -= walk;
+		runSpeed -= run;
+    }
+
+	public async void Invincibility(float time)
+    {
+		invincible = true;
+		if (time > 0) await Task.Delay((int)(time * 1000));
+		else return;
+		invincible = false;
 	}
 	#endregion
 
@@ -388,6 +406,7 @@ public class PlayerScript : MonoBehaviour
 	[Header("Movement Settings")]
 	[SerializeField] private float walkSpeed = 12f;
 	[SerializeField] private float runSpeed = 18f, gravity = 2763f;
+	[SerializeField] private bool invincible;
 	public float stamina = 100f, maxStamina = 100f, forceLookSpeed = 246f;
 	#endregion
 
